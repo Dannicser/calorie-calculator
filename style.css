@@ -1,0 +1,358 @@
+*,
+::before ::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  line-height: 1;
+  height: 100%;
+  font-size: 16px;
+  color: black;
+  margin: 0;
+  background: orange;
+  letter-spacing: 1.5px;
+  font-family: roboto;
+}
+label {
+  margin-left: 10px;
+}
+h2 {
+  color: darkslategray;
+  font-weight: 800;
+}
+#el-1,
+#el-2,
+#el-3,
+#el-4,
+#el-5 ::before {
+  content: "";
+  cursor: pointer;
+
+  width: 12px;
+}
+button {
+  color: black;
+  border-radius: 5px;
+  width: 220px;
+  height: 40px;
+  text-decoration: none;
+  border: 2px solid white;
+  font-family: roboto;
+  text-transform: uppercase;
+  initial-letter: 2px;
+  transition: 0.6s;
+}
+button:hover {
+  transition: 0.4s;
+  background-color: orange;
+}
+span {
+  color: black;
+  font-size: 8.2px;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+.love {
+  color: black;
+  font-size: 15px;
+  font-family: roboto;
+  padding-bottom: 5px;
+}
+
+.inp_parametr {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid red;
+  margin-top: 10px;
+  transition: 0.4s;
+}
+.inp_parametr:hover {
+  border: 2px solid red;
+  transition: 0.3s;
+}
+.inp_parametr:focus {
+  border: 3px solid red;
+  transition: 0.3s;
+}
+
+/* =------------------------------------------------------------- */
+.name_program {
+  color: white;
+  font-family: roboto;
+}
+.background {
+  z-index: -1;
+  background-color: #fff;
+  border-radius: 5%;
+  padding: 20px;
+  padding-left: 10px;
+}
+.wrapper {
+  padding: 10px 0px;
+}
+
+.container_ {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.gender_name {
+  font-size: 25px;
+  line-height: 41px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.name_program {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.parametrs {
+  display: flex;
+  justify-content: center;
+}
+
+.all_parametrs {
+  margin-right: 50px;
+}
+.all_parametrs:last-child {
+  margin-right: 0;
+}
+
+.age {
+  color: black;
+  transition: 0.6s;
+  font-weight: 600;
+}
+.age:hover {
+  font-size: 18px;
+  transition: 0.6s;
+  font-weight: 700;
+  color: green;
+}
+.growth {
+  color: black;
+  transition: 0.6s;
+  font-weight: 600;
+}
+
+.growth:hover {
+  font-size: 20px;
+  transition: 0.6s;
+  font-weight: 700;
+  color: yellowgreen;
+}
+.weight {
+  color: black;
+  transition: 0.6s;
+  font-weight: 600;
+}
+.weight:hover {
+  font-size: 20px;
+  transition: 0.6s;
+  font-weight: 700;
+  color: red;
+}
+
+/* кнопочки */
+
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.btn_man {
+  padding: 10px 0px;
+  width: 170px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0px 7px 7px 0px;
+  text-decoration: none;
+  font-family: roboto;
+  font-weight: 550;
+  display: flex;
+  justify-content: center;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.btn_man:hover {
+  transition: 0.4s;
+
+  font-size: 22px;
+  border: 2px solid black;
+  font-weight: 1000;
+}
+
+.btn_woman {
+  padding: 10px 0px;
+  width: 170px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  display: flex;
+  border-radius: 7px 0px 0px 7px;
+  font-family: roboto;
+  font-weight: 550;
+  justify-content: center;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.btn_woman:hover {
+  transition: 0.25s;
+  font-size: 22px;
+  border: 2px solid black;
+  font-weight: 1000;
+}
+
+.gender {
+  color: black;
+}
+
+#gen-m {
+  padding: 0;
+  font-size: 2px;
+  margin: 0;
+  opacity: 0;
+}
+
+#gen-w {
+  padding: 0;
+  font-size: 2px;
+  margin: 0;
+  opacity: 0;
+}
+
+/* action */
+.el_action {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+/* цвета с ховером */
+.el {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  font-family: roboto;
+  border: 1px solid;
+  border-radius: 7px;
+  padding: 8px 0px;
+
+  letter-spacing: 2px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+.el:hover {
+}
+.el:first-child:hover {
+  background-color: yellow;
+  color: black;
+  transition: 0.2s;
+  font-weight: 700;
+  border: 2px solid yellow;
+}
+.el:nth-child(2):hover {
+  background-color: brown;
+  color: white;
+  transition: 0.2s;
+  font-weight: 700;
+  border: 2px solid brown;
+}
+.el:nth-child(3):hover {
+  background-color: lightblue;
+  color: dark;
+  transition: 0.2s;
+  font-weight: 700;
+  border: 2px solid lightblue;
+}
+.el:nth-child(4):hover {
+  background-color: yellow;
+  color: darkblue;
+  transition: 0.2s;
+  font-weight: 700;
+  border: 2px solid yellow;
+}
+.el:nth-child(5):hover {
+  background-color: red;
+  transition: 0.2s;
+  font-weight: 700;
+  border: 2px solid red;
+}
+
+/* цвета без ховера */
+.el:first-child {
+  color: black;
+  transition: 0.2s;
+  border-color: aquamarine;
+  border: 1px solid black;
+}
+.el:nth-child(2) {
+  background-color: wheat;
+  color: black;
+  transition: 0.2s;
+}
+.el:nth-child(3) {
+  background-color: lightcoral;
+  color: dark;
+  transition: 0.2s;
+}
+.el:nth-child(4) {
+  background-color: lime;
+  color: darkblue;
+  transition: 0.2s;
+}
+.el:nth-child(5) {
+  background-color: darkcyan;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.crest {
+  vertical-align: middle;
+  text-align: right;
+
+  justify-content: end;
+}
+
+.btn {
+  margin-left: 20px;
+}
+/* Стилизация текста JS */
+.style {
+  line-height: 25px;
+  font-family: roboto;
+  margin-bottom: 5px;
+}
+.res {
+  line-height: 25px;
+  color: red;
+  font-family: roboto;
+  margin-top: 5px;
+  font-weight: 1100;
+  font-size: 18px;
+}
