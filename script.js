@@ -12,16 +12,16 @@ let activityMiddle = document.querySelector("#el-3");
 let activityHigh = document.querySelector("#el-4");
 let activityVeryHigh = document.querySelector("#el-5");
 
-// имя пользователя
+// имя пользователя!
 inputWoman.onclick = () => {
-  console.log("Пользователь женщина");
+  console.log("Пользователь женщина!");
 };
 
 inputMan.onclick = () => {
-  console.log("Пользователь мужчина");
+  console.log("Пользователь мужчина!");
 };
 
-// смена пола
+// смена пола!
 
 btnWoman.onclick = () => {
   if (inputWoman.checked) {
@@ -47,7 +47,7 @@ button.onclick = () => {
     // age.value = "";
 
     if (activityMin.checked) {
-      document.querySelector("h4").innerHTML =
+      document.querySelector(".out").innerHTML =
         "<div class='style'> Вам необходимо:</div>" +
         " " +
         Math.round(n * 1.2) +

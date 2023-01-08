@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=500', user-scalable=no">
+    <meta name="viewport" content="width=500', user-scalable=no" />
 
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -11,13 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <title>Калькулятор калорий</title>
+    <title>Калькулятор калорий!</title>
   </head>
   <body>
     <div class="wrapper">
       <div class="name_program">
-          <h1>Счётчик калорий</h1>
-        </div> 
+        <h1>Счётчик калорий</h1>
+      </div>
       <div class="container_">
         <main class="main">
           <div class="background">
@@ -39,50 +39,89 @@
             <div class="parametrs">
               <div class="all_parametrs age_parametr">
                 <div class="age">Возраст</div>
-                <input inputmode="numeric" value="" class="inp_parametr" id="age-1" type="text" />
-              </div> 
+                <input
+                  inputmode="numeric"
+                  value=""
+                  class="inp_parametr"
+                  id="age-1"
+                  type="text"
+                />
+              </div>
               <div class="all_parametrs growth_parametr">
                 <div class="growth">Рост</div>
-                <input inputmode="numeric"  value=""  class="inp_parametr" id="growth-1" type="text" />
+                <input
+                  inputmode="numeric"
+                  value=""
+                  class="inp_parametr"
+                  id="growth-1"
+                  type="text"
+                />
               </div>
               <div class="all_parametrs weight_parametr">
-                <div class="weight" >Вес</div>
-                <input inputmode="numeric"  value=""  class="inp_parametr" id = 'weight-1' type="text" />
+                <div class="weight">Вес</div>
+                <input
+                  inputmode="numeric"
+                  value=""
+                  class="inp_parametr"
+                  id="weight-1"
+                  type="text"
+                />
               </div>
             </div>
-          <div class="action">
-            <h2>Физическая активность</h2>
-          </div>
-          <ul class="el_action">
-            <li class="el" id="div-1">
-              <input  checked class="el_inp" type="radio" id="el-1" name="el" />
-              <label for="el-1">Минимальная<span>сидячий образ жизни</span></label>
-            </li>
-            <li class="el">
-              <input type="radio" id="el-2" name="el" />
-              <label for="el-2">Низкая<span>активность в быту, редкие тренировки</span></label> 
-            </li>
-            <li class="el">
-              <input type="radio" id="el-3" name="el" />
-              <label for="el-3">Средняя<span>тренировка три раза в неделю</span></label>
-            </li>
-            <li class="el">
-              <input type="radio" id="el-4" name="el" />
-              <label for="el-4">Высокая<span>тренировка пять раз в неделю</span></label> 
-            </li>
-            <li class="el">
-              <input type="radio" id="el-5" name="el" />
-              <label for="el-5">Очень высокая<span>Более пяти тренировок</span></label>
-            </li>
-          </ul>
-          <div class="btn"><button>Рассчитать</button> <a class="crest" href=""><img class="crest" src="17047.png" width="20px" alt=""></a></div>
-          <div class="out">
-            <h4></h4>
+            <div class="action">
+              <h2>Физическая активность</h2>
+            </div>
+            <ul class="el_action">
+              <li class="el" id="div-1">
+                <input
+                  checked
+                  class="el_inp"
+                  type="radio"
+                  id="el-1"
+                  name="el"
+                />
+                <label for="el-1"
+                  >Минимальная<span>сидячий образ жизни</span></label
+                >
+              </li>
+              <li class="el">
+                <input type="radio" id="el-2" name="el" />
+                <label for="el-2"
+                  >Низкая<span
+                    >активность в быту, редкие тренировки</span
+                  ></label
+                >
+              </li>
+              <li class="el">
+                <input type="radio" id="el-3" name="el" />
+                <label for="el-3"
+                  >Средняя<span>тренировка три раза в неделю</span></label
+                >
+              </li>
+              <li class="el">
+                <input type="radio" id="el-4" name="el" />
+                <label for="el-4"
+                  >Высокая<span>тренировка пять раз в неделю</span></label
+                >
+              </li>
+              <li class="el">
+                <input type="radio" id="el-5" name="el" />
+                <label for="el-5"
+                  >Очень высокая<span>Более пяти тренировок</span></label
+                >
+              </li>
+            </ul>
+            <div class="btn">
+              <button>Рассчитать</button>
+              <a class="crest" href="">
+                <img class="crest" src="17047.png" width="20px" alt="" />
+              </a>
+            </div>
+            <div class="out"></div>
           </div>
         </main>
       </div>
     </div>
-   </div>
-  <script src="script.js"></script>
- </body>
+    <script src="script.js"></script>
+  </body>
 </html>
